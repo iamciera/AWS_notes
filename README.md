@@ -1,7 +1,6 @@
 # About
 
 Here are my notes for buildiing and EC2 image on Amazon.
-Basically, I followed this [great medium article](http://strimas.com/r/rstudio-cloud-1/). [This dude](http://www.louisaslett.com/RStudio_AMI/) created and maintains a sweet Image with everything you need.
 
 ## Volumes
 
@@ -181,6 +180,8 @@ https://aws.amazon.com/premiumsupport/compare-plans/
 keycode: https://aws.amazon.com/premiumsupport/compare-plans/
 
 ## Resources
+
+Basically, I followed this [great medium article](http://strimas.com/r/rstudio-cloud-1/) and [This dude](http://www.louisaslett.com/RStudio_AMI/) created and maintains a sweet Image with everything you need.
 
 - [H20 on AWS](http://amunategui.github.io/h2o-on-aws/)
 - [Installing Anaconda](https://medium.com/@GalarnykMichael/aws-ec2-part-3-installing-anaconda-on-ec2-linux-ubuntu-dbef0835818a)
