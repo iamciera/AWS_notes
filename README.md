@@ -1,6 +1,6 @@
 # About
 
-Here are my notes for buildiing and EC2 image on Amazon.
+Here are my notes for building and EC2 image on Amazon Web Services (AWS). These notes are created specifically for creating a enviroment that uses a Jupyter Notebook Server to work with deep learning algorithms in Python with Tensorflow. There is also information for installing bioinformatic tools to handle sequencing data. 
 
 ## Volumes
 
@@ -37,8 +37,6 @@ If you change the size of the volume you attach, you have to tell your image to 
 [attaching Volumnes](http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ebs-using-volumes.html)
 
 [Volume Costs](https://forums.aws.amazon.com/thread.jspa?threadID=245389)
-
-![Screen Shot 2017-10-25 at 4.21.43 PM.png](resources/4BD4BFF0F2AAEB32C46A27E8E43343AB.png)
 
 ## Connecting to your image
 
@@ -157,7 +155,7 @@ What is the difference between stopping and terminating the instance?
 
 > When you stop an instance, we shut it down. We don't charge usage for a stopped instance, or data transfer fees, but we do charge for the storage for any Amazon EBS volumes. [ref](http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/Stop_Start.html)
 
-## Contacting and Research
+## Contacting and Research at UC Berkeley
 
 ### With BearBuy
 
@@ -166,11 +164,6 @@ Called Bearbuy: Phone: (510) 664-9000 option 1, then option 2
 Contact?: 	aws-uc-procurement@amazon.com
 
 Storage:
-
-S3 50TB?  
-[ ] Do you pay for how much storage you use?
-[ ] What is the difference between S3 storage and elastic storage.  Can you attach S3 to the EC2 instance?
-
 [block Storage for EC2](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/AmazonEBS.html)
 
 ## Comparing Plans:
